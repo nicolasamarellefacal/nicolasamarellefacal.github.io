@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>TIC</title>
+
+    <style>
+        /* ======== ESTILO GENERAL ======== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Segoe UI", sans-serif;
+        }
+
+        body {
+            /* Fondo con la imagen local */
+            background: url('https://www.elerniam.com/wp-content/uploads/2017/04/TIC-1024x499.jpg') center/cover fixed no-repeat;
+            color: rgb(238, 238, 238);
+        }
+
+        /* ======== MENÚ ======== */
+        nav {
+            width: 100%;
+            background: rgba(0,0,0,0.65);
+            padding: 15px 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 999;
+            border-bottom: 1px solid rgba(255,255,255,0.2);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            gap: 30px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #d8e6ff;
+            font-weight: bold;
+            padding: 5px 10px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #00aaff;
+            border-bottom: 2px solid #00aaff;
+        }
+
+        /* ======== SECCIONES ======== */
+        header, section {
+            max-width: 900px;
+            margin: 100px auto 50px auto;
+            background: rgba(0,0,0,0.55);
+            padding: 35px;
+            border-radius: 12px;
+            backdrop-filter: blur(4px);
+        }
+
+        header {
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            color: #00aaff;
+            text-shadow: 0 0 10px #000;
+        }
+
+        h2 {
+            color: #00aaff;
+            margin-bottom: 10px;
+            font-size: 1.8em;
+        }
+
+        p {
+            line-height: 1.6em;
+            font-size: 1.1em;
+        }
+
+        /* ======== BLOQUES ======== */
+        .bloque {
+            background: rgba(255,255,255,0.05);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            transition: 0.3s;
+        }
+
+        .bloque:hover {
+            transform: translateY(-4px);
+            background: rgba(0,170,255,0.1);
+        }
+
+        /* ======== BOTÓN VOLVER ======== */
+        .volver {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .volver a {
+            color: #00aaff;
+            font-size: 1.1em;
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<!-- ======== MENÚ ======== -->
+<nav>
+    <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#hardware">Hardware</a></li>
+        <li><a href="#software">Software</a></li>
+        <li><a href="#ia">IA</a></li>
+    </ul>
+</nav>
+
+<!-- ======== INICIO ======== -->
+<header id="inicio">
+    <h1>Tecnologías de la Información y Comunicación</h1>
+    <p>Proyecto TIC — 2º Bachillerato</p>
+</header>
+
+<section>
+    <h2>Introducción</h2>
+    <p>
+        Esta página web forma parte de un proyecto académico para la asignatura de TIC.
+       
+    </p>
+</section>
+
+<!-- ======== HARDWARE ======== -->
+<section id="hardware">
+    <h2>Hardware</h2>
+
+    <div class="bloque">
+        <h3>¿Qué es el hardware?</h3>
+        <p>
+            Es el conjunto de componentes físicos del ordenador: CPU, RAM, placa base, almacenamiento
+            y periféricos.
+        </p>
+    </div>
+
+    <div class="bloque">
+        <h3>Componentes importantes</h3>
+        <p>
+            • CPU <br>
+            • RAM  <br>
+            • SSD <br>
+            • GPU  
+        </p>
+    </div>
+
+    <div class="volver"><a href="#inicio">⬅ Volver al inicio</a></div>
+</section>
+
+<!-- ======== SOFTWARE ======== -->
+<section id="software">
+    <h2>Software</h2>
+
+    <div class="bloque">
+        <h3>Software de sistema</h3>
+        <p>
+            Permite que el ordenador funcione. Ejemplos: Windows, Linux, macOS.
+        </p>
+    </div>
+
+    <div class="bloque">
+        <h3>Software de aplicación</h3>
+        <p>
+            Son los programas que usamos: navegadores, juegos, procesadores de texto, editores...
+        </p>
+    </div>
+
+    <div class="volver"><a href="#inicio">⬅ Volver al inicio</a></div>
+</section>
+
+<!-- ======== IA ======== -->
+<section id="ia">
+    <h2>Inteligencia Artificial</h2>
+
+    <div class="bloque">
+        <h3>¿Qué es la IA?</h3>
+        <p>
+            La Inteligencia Artificial permite que las máquinas aprendan y realicen tareas
+            utilizando algoritmos y grandes cantidades de datos.
+        </p>
+    </div>
+
+    <div class="bloque">
+        <h3>Ejemplos actuales</h3>
+        <p>
+            • Asistentes virtuales<br>
+            
+            • Reconocimiento facial<br>
+            
+        </p>
+    </div>
+
+    <div class="volver"><a href="#inicio">⬅ Volver al inicio</a></div>
+</section>
+
+</body>
+</html>
